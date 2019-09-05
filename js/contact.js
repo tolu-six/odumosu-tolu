@@ -23,9 +23,9 @@
 		}
 	 });
 	
-// 	contactbtnclick.onclick= () => {
-// 		document.querySelector('.form-container').style.display = "block";
-// 	};
+	contactbtnclick.addEventListener('click', e => {
+		document.querySelector('.form-container').style.display = "block";
+	});
 
 	closepg.onclick= () => {
 		document.querySelector('.form-container').style.display = "none";
