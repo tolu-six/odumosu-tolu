@@ -26,4 +26,3 @@
 	closepg.onclick= () => {
 		document.querySelector('.form-container').style.display = "none";
 	};
-
