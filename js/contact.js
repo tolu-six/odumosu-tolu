@@ -7,8 +7,12 @@
 	const errmsg = document.querySelector('.error');
 	const closepg = document.querySelector('#close');
 	const contactbtnclick = document.querySelector('#contact-btn-click');
+	const formController = document.querySelector('.form-controller');
 
-
+	document.addEventListener("DOMContentLoaded", function(event){
+   		formController.style.display === 'none';
+		}
+			  
 	 contactForm.addEventListener('submit', e => {
 		
 	 	e.preventDefault();
@@ -19,13 +23,13 @@
 		}
 	 });
 	
-	contactbtnclick.onclick= () => {
-		document.querySelector('.form-container').style.display = "block";
-	};
+// 	contactbtnclick.onclick= () => {
+// 		document.querySelector('.form-container').style.display = "block";
+// 	};
 
-	closepg.onclick= () => {
-		document.querySelector('.form-container').style.display = "none";
-	};
+// 	closepg.onclick= () => {
+// 		document.querySelector('.form-container').style.display = "none";
+// 	};
 
 	//window.
 
