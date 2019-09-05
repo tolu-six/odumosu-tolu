@@ -6,7 +6,7 @@
 	const msg = document.querySelector('#msg');
 	const errmsg = document.querySelector('.error');
 	const closepg = document.querySelector('#close');
-	const contactbtnclick = document.querySelector('#contact-btn-click');
+	const contactbtnclick = document.querySelector('#contactBtnClick');
 	const formController = document.querySelector('.form-controller');
 
 	document.addEventListener("DOMContentLoaded", function(event){
