@@ -19,11 +19,11 @@
 		}
 	 });
 	
-	contactbtnclick.addEventListener('onclick', e => {
+	contactbtnclick.onclick= () => {
 		document.querySelector('.form-container').style.display = "block";
 	});
 
-	closepg.addEventListener('onclick', e => {
+	closepg.onclick= () => {
 		document.querySelector('.form-container').style.display = "none";
 	});
 
