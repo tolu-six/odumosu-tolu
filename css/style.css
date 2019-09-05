@@ -111,3 +111,7 @@ button {
 	background-color: darkred;
 	color: white;
 }
+.contact-form-div {
+	margin: 0 auto;
+	background-color: slateblue;
+}
