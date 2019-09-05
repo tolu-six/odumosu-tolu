@@ -1,5 +1,5 @@
-	$(document).ready(function(){
-		$('#contactForm').hide();
+	window.addEventListener('load', function() {
+		document.querySelector('.close').hide();
 	})
 
 	const contactForm = document.querySelector('#contact-form');
