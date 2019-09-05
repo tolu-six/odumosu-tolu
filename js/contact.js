@@ -7,7 +7,7 @@
 	const errmsg = document.querySelector('.error');
 	const closepg = document.querySelector('#close');
 	const contactbtnclick = document.querySelector('#contactBtnClick');
-	const formContainer = document.querySelector('.form-container);
+	const formContainer = document.querySelector('.form-container');
 			  
 	 contactForm.addEventListener('submit', e => {
 		
