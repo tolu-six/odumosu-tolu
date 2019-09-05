@@ -11,7 +11,7 @@
 
 	document.addEventListener("DOMContentLoaded", function(event){
    		formController.style.display === 'none';
-		}
+		});
 			  
 	 contactForm.addEventListener('submit', e => {
 		
@@ -27,9 +27,9 @@
 // 		document.querySelector('.form-container').style.display = "block";
 // 	};
 
-// 	closepg.onclick= () => {
-// 		document.querySelector('.form-container').style.display = "none";
-// 	};
+	closepg.onclick= () => {
+		document.querySelector('.form-container').style.display = "none";
+	};
 
 	//window.
 
