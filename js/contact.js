@@ -8,10 +8,6 @@
 	const closepg = document.querySelector('#close');
 	const contactbtnclick = document.querySelector('#contactBtnClick');
 	const formController = document.querySelector('.form-controller');
-
-	document.addEventListener("DOMContentLoaded", function(event){
-   		formController.style.display === 'none';
-		});
 			  
 	 contactForm.addEventListener('submit', e => {
 		
@@ -30,6 +26,4 @@
 	closepg.onclick= () => {
 		document.querySelector('.form-container').style.display = "none";
 	};
-
-	//window.
 
