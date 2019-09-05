@@ -100,9 +100,9 @@ button {
     display: none;
     padding-top: 50px;
     position: absolute;
-    z-index: 3;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 99%;
     height: 500px;
 }
 #contactBtnClick{
