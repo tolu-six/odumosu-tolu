@@ -21,7 +21,7 @@
 	
 	contactbtnclick.addEventListener('click', e => {
 		//document.querySelector('.form-container').style.display = "block";
-		contactForm.style.display = "block";
+		formController.style.display = "block";
 	});
 
 	closepg.onclick= () => {
