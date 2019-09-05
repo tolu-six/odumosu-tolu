@@ -1,6 +1,5 @@
 	window.addEventListener('load', function() {
-		console.log('Here');
-		document.querySelector('#contact-form').hide();
+		$('#contact-form').hide();
 	})
 
 	const contactForm = document.querySelector('#contact-form');
@@ -23,6 +22,6 @@
 		}
 	 });
 
-       	 closepg.addEventListener('click', e => {
-	 	style.display = none;
-	 });
+//        	 closepg.addEventListener('click', e => {
+// 	 	style.display = none;
+// 	 });
