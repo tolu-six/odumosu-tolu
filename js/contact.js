@@ -1,7 +1,3 @@
-	window.addEventListener('load', function() {
-		$('#contact-form').hide();
-	})
-
 	const contactForm = document.querySelector('#contact-form');
 	const contactBtn = document.querySelector('#contact-btn');
 	const title = document.querySelector('#title');
@@ -9,7 +5,8 @@
 	const email = document.querySelector('#email');
 	const msg = document.querySelector('#msg');
 	const errmsg = document.querySelector('.error');
-	const closepg = document.querySelector('.close');
+	const closepg = document.querySelector('#close');
+	const contactbtnclick = document.querySelector('#contact-btn-click');
 
 
 	 contactForm.addEventListener('submit', e => {
@@ -21,7 +18,12 @@
 			e.textContent('Please check that your Name is atleast 4 characters<br> and your message is atleast 20 characters');
 		}
 	 });
+	
+	contactbtnclick.addEventListener('click', e => {
+		contactForm.style.display = block;
+	});
 
-//        	 closepg.addEventListener('click', e => {
-// 	 	style.display = none;
-// 	 });
+	closepg.addEventListener('click', e => {
+		contactForm.style.display = none
+	});
+
