@@ -20,7 +20,8 @@
 	 });
 	
 	contactbtnclick.addEventListener('click', e => {
-		document.querySelector('.form-container').style.display = "block";
+		//document.querySelector('.form-container').style.display = "block";
+		contactForm.style.display = "block";
 	});
 
 	closepg.onclick= () => {
