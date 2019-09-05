@@ -20,10 +20,12 @@
 	 });
 	
 	contactbtnclick.addEventListener('click', e => {
-		contactForm.style.display = block;
+		contactForm.style.display = "block";
 	});
 
 	closepg.addEventListener('click', e => {
-		contactForm.style.display = none
+		contactForm.style.display = "none";
 	});
+
+	//window.
 
