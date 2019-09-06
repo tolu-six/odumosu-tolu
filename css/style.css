@@ -112,6 +112,18 @@ button {
 	color: white;
 }
 .contact-form-div{
-    background-color: #B2BEB5;
-    box-shadow: 0 5px 5px grey;	
+    background-color: #fefefe;
+    box-shadow: 0 5px 5px grey;
+    max-width: 550px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.close{
+    margin: 20px;
+    float: right;
+    color: #000000;	
+    background-color: #8b0000;	
+}
+.close:active{
+    background-color: #fefefe
 }
