@@ -132,7 +132,7 @@ input, textarea{
     border: 1px solid #53544E;	
 }
 .errmsg{
-    backgroun-color: #DC143C;
+    background-color: #FF0000;
     margin: 0 5px;
     position:fixed;
     z-index: 2;
