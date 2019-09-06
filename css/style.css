@@ -119,12 +119,12 @@ input, textarea{
     color: #000000;	
     background-color: #8b0000;	
     border-radius: 10px;
+    margin: 20px;
 }
 #close:active{
     background-color: #fefefe
 }
 #contact-btn {
-    padding: 20px;
     margin: 10px 150px;
     color: #ffffff;
     background-color: #000000;
