@@ -11,7 +11,7 @@
 	const formContainer = document.querySelector('.form-container');
 			  
 	 contactForm.addEventListener('submit', e => {
-		
+		console.log('Hello There');
 	 	e.preventDefault();
 
 		if(contactName.value.length < 4 || msg.value.length < 20){
