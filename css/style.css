@@ -81,8 +81,9 @@ article > .personal-details {
 }
 form{
 	max-width: 600px;
-	margin: 40px auto;
+	margin: 20px auto;
 	padding: 10px;
+	background-color: #E2D9CD;
 }
 input, textarea{
 	display: block;
@@ -90,11 +91,6 @@ input, textarea{
 	padding: 15px;
         width: 450px;
         border-radius: 10px;
-}
-button {
-    border-radius: 10px;
-    margin: 0 190px;
-    background-color: dark-red;	
 }
 .form-container {
     display: none;
@@ -108,7 +104,7 @@ button {
 #contactBtnClick{
 	height:30px;
 	margin: 20px 20px;
-	background-color: darkred;
+	background-color: 8b0000;
 	color: white;
 }
 .contact-form-div{
@@ -118,12 +114,12 @@ button {
     padding: 30px;
     margin: 0 auto;
 }
-.close{
-    margin: 20px;
+#close{
     float: right;
     color: #000000;	
     background-color: #8b0000;	
+    border-radius: 10px;
 }
-.close:active{
+#close:active{
     background-color: #fefefe
 }
