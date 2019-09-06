@@ -20,8 +20,8 @@
 			errmsg.style.display = "block";
 			errmsg.style.color = "#000000";		     
 		 }
-		 else{console.log('haq haq');
-		    successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';
+		 else{
+		    console.log('successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';');
 		    successMsg.style.display = "block";
 		    successMsg.style.color = "#000000";			
 		 }
