@@ -5,7 +5,7 @@
 	const email = document.querySelector('#email');
 	const msg = document.querySelector('#msg');
 	const errmsg = document.querySelector('.error');
-        //const successMsg = document.querySelector('.success-msg');
+        const successMsg = document.querySelector('.success-msg');
 	const closepg = document.querySelector('#close');
 	const contactbtnclick = document.querySelector('#contactBtnClick');
 	const formContainer = document.querySelector('.form-container');
@@ -19,11 +19,11 @@
 			errmsg.style.display = "block";
 			errmsg.style.color = "#000000";		     
 		 }
-// 		 else{
-// 		    successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';
-// 		    successMsg.style.display = "block";
-// 		    successMsg.style.color = "#000000";			
-// 		 }
+		 else{
+		    successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';
+		    successMsg.style.display = "block";
+		    successMsg.style.color = "#000000";			
+		 }
 	 });
 	
 	contactbtnclick.addEventListener('click', e => {
