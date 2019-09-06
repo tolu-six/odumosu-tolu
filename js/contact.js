@@ -14,9 +14,9 @@
 	 	e.preventDefault();
 
 		if(contactName.value.length < 4 || msg.value.length < 20){
-			errormsg.textContent('Please check that your Name is atleast 4 characters and your message is atleast 20 characters');
-			errormsg.style.display = "block";
-			errormsg.style.color = "#000000";		     
+			errmsg.textContent('Please check that your Name is atleast 4 characters and your message is atleast 20 characters');
+			errmsg.style.display = "block";
+			errmsg.style.color = "#000000";		     
 		}
 	 });
 	
