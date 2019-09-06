@@ -18,8 +18,10 @@
 			errmsg.textContent = 'Please check that your Name is atleast 4 characters and your message is atleast 20 characters';
 			errmsg.style.display = "block";
 			errmsg.style.color = "#000000";		     
-		}else {
+		}else{
 		    successmsg.textContent = 'Thank you for dropping by! I will contact you shortly';
+		    successmsg.style.display = "block";
+		    successmsg.style.color = "#000000";			
 		}
 	 });
 	
