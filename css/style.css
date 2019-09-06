@@ -110,9 +110,9 @@ input, textarea{
 .contact-form-div{
     background-color: #fefefe;
     box-shadow: 0 5px 5px grey;
-    max-width: 550px;
+    max-width: 400px;
     padding: 30px;
-    margin: -30px auto;
+    margin: -45px auto;
 }
 #close{
     float: right;
@@ -125,7 +125,7 @@ input, textarea{
 }
 #contact-btn {
     padding: 20px;
-    margin: 10px auto;
+    margin: 10px 150px;
     color: #ffffff;
     background-color: #000000;
     border-radius: 15px;
