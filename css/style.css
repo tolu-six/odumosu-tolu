@@ -88,8 +88,8 @@ input, textarea{
 	display: block;
 	margin: 30px auto;
 	padding: 15px;
-    width: 450px;
-    border-radius: 10px;
+        width: 450px;
+        border-radius: 10px;
 }
 button {
     border-radius: 10px;
@@ -98,10 +98,10 @@ button {
 }
 .form-container {
     display: none;
-    padding-top: 50px;
+    padding-top: 60px;
     position: absolute;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 99%;
     height: 500px;
 }
@@ -110,4 +110,8 @@ button {
 	margin: 20px 20px;
 	background-color: darkred;
 	color: white;
+}
+.contact-form-div{
+    background-color: #B2BEB5;
+    box-shadow: 0 5px 5px grey;	
 }
