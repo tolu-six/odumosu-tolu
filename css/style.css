@@ -131,9 +131,15 @@ input, textarea{
     border-radius: 15px;
     border: 1px solid #53544E;	
 }
-.errmsg{
+.error {
     background-color: #FF0000;
     margin: 0 5px;
     position:fixed;
     z-index: 2;
+}
+.success-msg {
+   background-color: #87CEEB;
+    margin: 0 5px;
+    position:fixed;
+    z-index: 2; 
 }
