@@ -21,7 +21,7 @@
 			errmsg.style.color = "#000000";		     
 		 }
 		 else{
-		    console.log('successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';');
+		    console.log(successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';);
 		    successMsg.style.display = "block";
 		    successMsg.style.color = "#000000";			
 		 }
