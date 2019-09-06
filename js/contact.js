@@ -5,7 +5,7 @@
 	const email = document.querySelector('#email');
 	const msg = document.querySelector('#msg');
 	const errmsg = document.querySelector('.error');
-        const successmsg = document.querySelector('.success-msg');
+        //const successMsg = document.querySelector('.success-msg');
 	const closepg = document.querySelector('#close');
 	const contactbtnclick = document.querySelector('#contactBtnClick');
 	const formContainer = document.querySelector('.form-container');
@@ -20,9 +20,9 @@
 			errmsg.style.color = "#000000";		     
 		 }
 // 		 else{
-// 		    successmsg.textContent = 'Thank you for dropping by! I will contact you shortly';
-// 		    successmsg.style.display = "block";
-// 		    successmsg.style.color = "#000000";			
+// 		    successMsg.textContent = 'Thank you for dropping by! I will contact you shortly';
+// 		    successMsg.style.display = "block";
+// 		    successMsg.style.color = "#000000";			
 // 		 }
 	 });
 	
